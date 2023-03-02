@@ -25,10 +25,13 @@
   position: relative;
 left: 100px;
 }
+.detect:hover{
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
 .navbar-brand{
-  font-family: "Montserrat",sans-serif;
+  font-family: "Ubuntu",sans-serif;
   color: #028F21;
-  padding-left: 10%;
+  padding-left: 5%;
   font-size: 1.5rem;
 }
 .nav-link{
@@ -41,6 +44,11 @@ left: 100px;
 .navbar-item{
   padding-left: 10px;
   padding-right: 10px;
+
+
+}
+.nav-link:hover{
+  color: orange;
 
 }
 .navbar-toggler{
@@ -85,7 +93,7 @@ left: 100px;
     top: 120px;
     left: 20px;
  }
- .h1color {
+ .h1color  {
    font-family: "Montserrat",sans-serif;
    font-size: 3.5rem;
 
@@ -110,6 +118,77 @@ left: 100px;
 .container-fluid{
   padding: 2% 10%;
  }
- .how{
+ .how:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
 
- }
+#features{
+  background-color: #E7F8E4;
+    text-align: center;
+    padding-bottom: 104px;
+    padding-top: 80px;
+    margin-top: 128px;
+}
+.features-1 , .features-2 , .features-3{
+  Width: 350px;
+  Height: 502px;
+  background-color: white;
+  border-radius: 2.5rem;
+}
+.features-head{
+  position: relative;
+  color:#48C94A;
+  top: 30px;
+}
+.comm{
+  height: 172px;
+width: 226px;
+position: relative;
+border-radius: 0px;
+
+}
+.accuracy{
+  height: 134px;
+      width: 180px;
+      position: relative;
+      border-radius: 49px;
+      padding-top: 20px;
+}
+.cure{
+  height: 139px;
+  width: auto;
+  position: relative;
+  background-color: orange;
+  border-radius: 50%;
+  margin-top: 15px;
+}
+.hc{
+  padding-top: 15px;
+}
+.fp{
+  position: relative;
+left: 0;
+top: 60px;
+padding: 16px 20px;
+}
+
+
+.ha{
+  padding-top: 35px;
+}
+.fimage{
+  top:20px;
+}
+.fle{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#features h1{
+  color: #028F21;
+  padding:30px;
+  font-family: "Poppins",sans-serif;
+}
+.features-1 , .features-2 , .features-3:hover{
+
+}
