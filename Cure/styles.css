@@ -1,0 +1,78 @@
+h1{
+  font-family: "Poppins";
+  text-align: center;
+}
+.cure{
+  margin: 3rem 0rem;
+  padding :5rem;
+}
+.infect{
+  position: relative;
+    height: 341px;
+    width: 400px;
+    left: 190px;
+    top: 34px;
+}
+.cp{
+  padding: 6rem;
+      position: relative;
+      padding-left: 0px;
+padding-right: 180px;
+      /* text-align: center; */
+}
+@media (max-width: 1385px) {
+  .cp  {padding: 6rem;
+      position: relative;
+      }
+
+}
+@media (max-width: 1220px) {
+  .cp {
+    /* padding: 6rem; */
+    position: relative;
+    top: 102px;
+    left: 40px;
+    padding: 0;
+}
+.infect {
+    position: relative;
+    height: 341px;
+    width: 400px;
+    left: 40px;
+    top: 34px;
+}
+}
+@media (max-width: 1040px) {
+  .cp {
+    /* padding: 6rem; */
+    position: relative;
+    top: 102px;
+    left: 40px;
+    padding: 0;
+}
+.infect {
+    position: relative;
+    height: 341px;
+    width: 400px;
+    left: -20px;
+    top: 34px;
+}
+}
+@media (max-width: 940px){
+.infect {
+    position: relative;
+    height: 341px;
+    width: 400px;
+    left: -55px;
+    top: 34px;
+
+}}
+@media (max-width: 770px){
+.infect {
+    position: relative;
+    height: 341px;
+    width: 400px;
+    left: 21px;
+    top: 34px;
+    object-position: 50% 50%;
+}}
